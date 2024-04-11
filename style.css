@@ -1,0 +1,134 @@
+/* General Styles */
+body {
+  font-family: Bell Mt;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+.header-container {
+  background-image: url('https://th.bing.com/th/id/R.043f9ac4a9b6fcb023c2b86bc20f89a0?rik=eeedgvNCxid0Vg&pid=ImgRaw&r=0');
+  background-size: cover;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+  
+}
+
+header h1 {
+  margin: 0;
+  font-size: 70px;
+  .bold-text {
+  font-weight: bold;
+}
+
+  
+}
+
+nav {
+  background-color: Black;
+  color: #fff;
+  padding: 10px;
+  font-size: 25px;
+  
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+.footer-container {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 17px;
+}
+
+/* Grid layout for Grooming section */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.grid-item {
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  padding: 20px;
+  font-size: 18px;
+  text-align: center;
+}
+
+/* Collapsible content blocks for Pets Hotel */
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 16px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  font-size: 30px;
+}
+
+/* Collapsible sets for Pet Day Camp */
+.collapsible-set {
+  background-color: #f2f2f2;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.collapsible-set:hover {
+  background-color: #ddd;
+}
+
+.content-set {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f9f9f9;
+}
+
+/* Pets Hotel and Pet Day Camp Section Styling */
+.hotel-content, .camp-content {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 70px;
+}
